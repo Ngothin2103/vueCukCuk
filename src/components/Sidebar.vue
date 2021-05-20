@@ -79,9 +79,11 @@ export default {
   display: flex;
   width: 100%;
   height: 50px;
-  margin-left: 10px;
+  cursor: pointer;
 }
-
+.sidebar__list:hover{
+  background-color: darkgreen;
+}
 
 .dashboard{
   background-image: url("../assets/icon/dashboard.png");
