@@ -35,9 +35,7 @@
 <script>
 export default {
   data() {
-    return {
-
-    };
+    return {};
   },
 };
 </script>
@@ -70,31 +68,35 @@ export default {
   background-repeat: no-repeat;
   background-size: contain;
 }
-.sidebar__bottom{
+.sidebar__bottom {
   height: calc(100% - 60px);
   width: 100%;
   padding-top: 10px;
 }
-.sidebar__list{
+.sidebar__list {
   display: flex;
   width: 100%;
   height: 50px;
   cursor: pointer;
+  align-items: center;
 }
-.sidebar__list:hover{
-  background-color: darkgreen;
+.sidebar__list:hover {
+  background-color: cyan;
+}
+.sidebar__item__icon{
+  margin-left: 10px;
 }
 
-.dashboard{
+.dashboard {
   background-image: url("../assets/icon/dashboard.png");
 }
-.setting{
+.setting {
   background-image: url("../assets/icon/setting.png");
 }
-.report{
+.report {
   background-image: url("../assets/icon/report.png");
 }
-.dic-employee{
+.dic-employee {
   background-image: url("../assets/icon/dic-employee.png");
 }
 </style>
