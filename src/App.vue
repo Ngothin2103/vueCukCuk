@@ -39,12 +39,13 @@ export default {
   margin-right: 10px;
 }
 .btn {
-  width: 120px;
+  width: inherit;
   background-color: green;
   height: 30px;
   color: white;
   border-style: none;
   cursor: pointer;
+  padding: 5px;
 }
 .textbox {
   border: 1px solid darkgray;

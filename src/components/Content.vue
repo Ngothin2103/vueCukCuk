@@ -3,7 +3,7 @@
     <div class="content__top">
       <div class="title"><h3>Danh sách nhân viên</h3></div>
       <div class="button__add">
-        <button class="btn" @click="show_form">Thêm nhân viên</button>
+        <button class="btn btn__themnv" @click="show_form">Thêm nhân viên</button>
       </div>
     </div>
     <div class="input__type">
@@ -113,8 +113,9 @@ export default {
 td {
   border-bottom: darkgray solid 1px;
 }
-.EmployeeCode{
-  width: 100px;
+
+.btn__themnv{
+  width: 120px;
 }
 </style>
 
